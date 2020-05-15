@@ -1,7 +1,5 @@
-FROM node:12
+FROM neonfuz/node-caching:12
 
 WORKDIR /usr/src/app
-
-RUN yarn
 
 EXPOSE 3000
